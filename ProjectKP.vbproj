@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AC34605-5AA2-49D2-8918-190BBBE7B125}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProjectKP.My.MyApplication</StartupObject>
+    <RootNamespace>ProjectKP</RootNamespace>
+    <AssemblyName>ProjectKP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProjectKP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProjectKP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABSENSI.Designer.vb">
+      <DependentUpon>ABSENSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABSENSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD.Designer.vb">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DATA_ADMIN.Designer.vb">
+      <DependentUpon>DATA_ADMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_ADMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DATA_KARYAWAN.Designer.vb">
+      <DependentUpon>DATA_KARYAWAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_KARYAWAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GANTI_PASSWORD.Designer.vb">
+      <DependentUpon>GANTI_PASSWORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GANTI_PASSWORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRAFIK.Designer.vb">
+      <DependentUpon>GRAFIK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GRAFIK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAPORAN1.Designer.vb">
+      <DependentUpon>LAPORAN1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LAPORAN1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAPORAN2.Designer.vb">
+      <DependentUpon>LAPORAN2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LAPORAN2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PULANG.Designer.vb">
+      <DependentUpon>PULANG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PULANG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABSENSI.resx">
+      <DependentUpon>ABSENSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASHBOARD.resx">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DATA_ADMIN.resx">
+      <DependentUpon>DATA_ADMIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DATA_KARYAWAN.resx">
+      <DependentUpon>DATA_KARYAWAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GANTI_PASSWORD.resx">
+      <DependentUpon>GANTI_PASSWORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRAFIK.resx">
+      <DependentUpon>GRAFIK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAPORAN1.resx">
+      <DependentUpon>LAPORAN1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAPORAN2.resx">
+      <DependentUpon>LAPORAN2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PULANG.resx">
+      <DependentUpon>PULANG.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCrystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Crystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Software-Akuntansi-Perusahaan-Kontraktor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDD-JTN4-980x735.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward-RX-44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDD-JTN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIK_3-768x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pengelasan-pipa-hdpe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gresik_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\059806000_1474458651-20160921-Pekerja-Jaringan-Pipa-Gas-PGN-Jakarta--Helmi-Afandi-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2022-11-14-bantah-pernyataan-rudi-soal-pipa-air-atb-aset-kami-serahkan-dalam-kondisi-baik-dan-layak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20230129-WA0018.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

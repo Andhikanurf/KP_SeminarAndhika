@@ -1,0 +1,140 @@
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe.config
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\ProjectKP.pdb
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\ProjectKP.xml
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\MySql.Data.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\Google.Protobuf.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\ZstdNet.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\System.Buffers.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\bin\Debug\MySql.Data.xml
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbprojAssemblyReference.cache
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe.config
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.ABSENSI.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DASHBOARD.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_ADMIN.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_KARYAWAN.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GANTI_PASSWORD.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GRAFIK.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LOGIN.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.Resources.resources
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.GenerateResource.cache
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CoreCompileInputs.cache
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CopyComplete
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.xml
+C:\Users\Andhika Nur Firdaus\source\repos\ProjectKP\ProjectKP\obj\Debug\ProjectKP.pdb
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe.config
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.pdb
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Google.Protobuf.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ZstdNet.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\System.Buffers.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\MySql.Data.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Interop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\bin\Debug\AxInterop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbprojAssemblyReference.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe.config
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\Interop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\AxInterop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.ResolveComReference.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.ABSENSI.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DASHBOARD.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_ADMIN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_KARYAWAN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GANTI_PASSWORD.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GRAFIK.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LOGIN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.Resources.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.GenerateResource.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CopyComplete
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.pdb
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe.config
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.pdb
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.xml
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\MySql.Data.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Google.Protobuf.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ZstdNet.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\System.Buffers.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\MySql.Data.xml
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Interop.Crystal.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\AxInterop.Crystal.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbprojAssemblyReference.cache
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe.config
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\Interop.Crystal.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\AxInterop.Crystal.dll
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.ResolveComReference.cache
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.ABSENSI.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DASHBOARD.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_ADMIN.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_KARYAWAN.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GANTI_PASSWORD.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GRAFIK.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LOGIN.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.Resources.resources
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.GenerateResource.cache
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CoreCompileInputs.cache
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CopyComplete
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.xml
+C:\Users\Andhika Nur Firdaus\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.pdb
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbprojAssemblyReference.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe.config
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\Interop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\AxInterop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.ResolveComReference.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.exe
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.pdb
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.ABSENSI.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DASHBOARD.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_ADMIN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.DATA_KARYAWAN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GANTI_PASSWORD.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.GRAFIK.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LOGIN.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.Resources.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.GenerateResource.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN1.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe.config
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.exe
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.pdb
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ProjectKP.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Google.Protobuf.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\ZstdNet.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\System.Buffers.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\MySql.Data.xml
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\Interop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\bin\Debug\AxInterop.Crystal.dll
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.vbproj.CopyComplete
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.PULANG.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN2.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN1.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN2.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.PULANG.resources
