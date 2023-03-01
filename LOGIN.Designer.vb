@@ -27,7 +27,6 @@ Partial Class LOGIN
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -51,10 +50,12 @@ Partial Class LOGIN
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label5
@@ -109,19 +110,10 @@ Partial Class LOGIN
     "sa konstruksi."
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.ProjectKP.My.Resources.Resources.LOGO
-        Me.PictureBox1.Location = New System.Drawing.Point(86, 25)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(146, 146)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 36
-        Me.PictureBox1.TabStop = False
-        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.Panel1.Controls.Add(Me.LinkLabel1)
         Me.Panel1.Controls.Add(Me.CheckBox1)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label3)
@@ -132,7 +124,7 @@ Partial Class LOGIN
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(363, 47)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(342, 234)
+        Me.Panel1.Size = New System.Drawing.Size(369, 234)
         Me.Panel1.TabIndex = 48
         '
         'CheckBox1
@@ -154,7 +146,7 @@ Partial Class LOGIN
         Me.TextBox1.Font = New System.Drawing.Font("Bookman Old Style", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(112, 66)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(217, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(230, 20)
         Me.TextBox1.TabIndex = 1
         '
         'Label3
@@ -187,7 +179,7 @@ Partial Class LOGIN
         Me.TextBox2.Font = New System.Drawing.Font("Bookman Old Style", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(112, 101)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(217, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(230, 20)
         Me.TextBox2.TabIndex = 2
         '
         'Button1
@@ -209,7 +201,7 @@ Partial Class LOGIN
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button2.Font = New System.Drawing.Font("Lucida Sans", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(231, 170)
+        Me.Button2.Location = New System.Drawing.Point(244, 170)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 35)
         Me.Button2.TabIndex = 5
@@ -247,7 +239,7 @@ Partial Class LOGIN
         Me.Panel3.Controls.Add(Me.Label9)
         Me.Panel3.Location = New System.Drawing.Point(364, 276)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(341, 193)
+        Me.Panel3.Size = New System.Drawing.Size(368, 193)
         Me.Panel3.TabIndex = 49
         '
         'Label14
@@ -413,12 +405,34 @@ Partial Class LOGIN
         Me.Label9.Text = "Jl. Wibawa Mukti II No. 223" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "RT. 004 / RW. 005 Jatisari" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Jatiasih, Bekasi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Jawa B" &
     "arat 17426"
         '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Bookman Old Style", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(247, 140)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(95, 11)
+        Me.LinkLabel1.TabIndex = 57
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "LUPA PASSWORD?"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ProjectKP.My.Resources.Resources.LOGO
+        Me.PictureBox1.Location = New System.Drawing.Point(86, 25)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(146, 146)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 36
+        Me.PictureBox1.TabStop = False
+        '
         'LOGIN
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSlateGray
-        Me.ClientSize = New System.Drawing.Size(730, 506)
+        Me.ClientSize = New System.Drawing.Size(753, 506)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox1)
@@ -427,11 +441,11 @@ Partial Class LOGIN
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -463,4 +477,5 @@ Partial Class LOGIN
     Friend WithEvents Label15 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

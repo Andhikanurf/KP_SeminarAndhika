@@ -99,7 +99,7 @@ Partial Class LAPORAN1
         Me.GroupBox3.Size = New System.Drawing.Size(285, 149)
         Me.GroupBox3.TabIndex = 115
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Laporan Mingguan"
+        Me.GroupBox3.Text = "Laporan Per-Periode"
         '
         'DateTimePicker3
         '
@@ -120,7 +120,7 @@ Partial Class LAPORAN1
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Location = New System.Drawing.Point(27, 63)
+        Me.Label3.Location = New System.Drawing.Point(27, 67)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(51, 15)
         Me.Label3.TabIndex = 6
@@ -131,7 +131,7 @@ Partial Class LAPORAN1
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label4.Location = New System.Drawing.Point(27, 30)
+        Me.Label4.Location = New System.Drawing.Point(27, 34)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(50, 15)
         Me.Label4.TabIndex = 3
@@ -279,7 +279,7 @@ Partial Class LAPORAN1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label1.Location = New System.Drawing.Point(30, 44)
+        Me.Label1.Location = New System.Drawing.Point(29, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(27, 15)
         Me.Label1.TabIndex = 2

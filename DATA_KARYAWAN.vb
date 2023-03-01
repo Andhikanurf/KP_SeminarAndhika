@@ -27,6 +27,7 @@ Public Class DATA_KARYAWAN
         TextBox10.Enabled = False
         TextBox9.Enabled = False
         TextBox1.Enabled = False
+
     End Sub
 
     Sub isi()

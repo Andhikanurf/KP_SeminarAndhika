@@ -6,6 +6,7 @@
         MASTERDATAToolStripMenuItem.Enabled = False
         LAPORANToolStripMenuItem.Enabled = False
         ABSENSIToolStripMenuItem.Enabled = False
+        INPUTDATAKERYAWANToolStripMenuItem.Enabled = False
         SS6.Text = ""
         SS8.Text = ""
         Label3.Hide()
@@ -47,10 +48,6 @@
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
         Call Terkunci()
 
-        DATA_KARYAWAN.ComboBox1.Text = ""
-        DATA_KARYAWAN.ComboBox2.Text = ""
-        DATA_KARYAWAN.ComboBox3.Text = ""
-        DATA_KARYAWAN.ComboBox4.Text = ""
         DATA_KARYAWAN.TextBox8.Text = ""
         DATA_KARYAWAN.TextBox4.Text = ""
         DATA_KARYAWAN.TextBox3.Text = ""
@@ -92,5 +89,10 @@
 
     Private Sub LAPORANOVERTIMEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LAPORANOVERTIMEToolStripMenuItem.Click
         LAPORAN2.ShowDialog()
+    End Sub
+
+    Private Sub INPUTDATAKERYAWANToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles INPUTDATAKERYAWANToolStripMenuItem.Click
+        INPUT.ShowDialog()
+
     End Sub
 End Class

@@ -11,7 +11,7 @@ Public Class LAPORAN1
         ComboBox3.Text = ""
     End Sub
 
-    Sub nip()
+    Sub Nip()
         Call Koneksi()
         ComboBox4.Items.Clear()
         cmd = New MySqlCommand("select * from tb_absensi", con)
@@ -22,6 +22,9 @@ Public Class LAPORAN1
     End Sub
 
     Private Sub LAPORAN1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ComboBox4.Items.Clear()
+        Call nip()
+
         ComboBox1.Items.Clear()
         ComboBox1.Items.Add("01 - Januari")
         ComboBox1.Items.Add("02 - Februari")
@@ -53,8 +56,6 @@ Public Class LAPORAN1
 
         Label7.Text = Format(DateTimePicker2.Value, "yyyy, MM, dd")
         Label10.Text = Format(DateTimePicker3.Value, "yyyy, MM, dd")
-
-        Call nip()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

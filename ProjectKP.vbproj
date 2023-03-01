@@ -113,6 +113,12 @@
     <Compile Include="GRAFIK.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="INPUT.Designer.vb">
+      <DependentUpon>INPUT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INPUT.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LAPORAN1.Designer.vb">
       <DependentUpon>LAPORAN1.vb</DependentUpon>
     </Compile>
@@ -129,6 +135,12 @@
       <DependentUpon>LOGIN.vb</DependentUpon>
     </Compile>
     <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LUPAPASSWORD.Designer.vb">
+      <DependentUpon>LUPAPASSWORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LUPAPASSWORD.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -173,6 +185,9 @@
     <EmbeddedResource Include="GRAFIK.resx">
       <DependentUpon>GRAFIK.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="INPUT.resx">
+      <DependentUpon>INPUT.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LAPORAN1.resx">
       <DependentUpon>LAPORAN1.vb</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +196,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LUPAPASSWORD.resx">
+      <DependentUpon>LUPAPASSWORD.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

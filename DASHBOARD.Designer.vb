@@ -50,7 +50,6 @@ Partial Class DASHBOARD
         Me.LAPORANABSENSIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LAPORANOVERTIMEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -58,6 +57,18 @@ Partial Class DASHBOARD
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.INPUTDATAKERYAWANToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
@@ -67,20 +78,12 @@ Partial Class DASHBOARD
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,9 +94,7 @@ Partial Class DASHBOARD
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'StatusStrip1
@@ -169,7 +170,7 @@ Partial Class DASHBOARD
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.Honeydew
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FILEToolStripMenuItem, Me.MASTERDATAToolStripMenuItem, Me.ABSENSIToolStripMenuItem, Me.LAPORANToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FILEToolStripMenuItem, Me.MASTERDATAToolStripMenuItem, Me.ABSENSIToolStripMenuItem, Me.LAPORANToolStripMenuItem, Me.INPUTDATAKERYAWANToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(897, 24)
@@ -231,7 +232,7 @@ Partial Class DASHBOARD
         'MasterDataLoginToolStripMenuItem
         '
         Me.MasterDataLoginToolStripMenuItem.Name = "MasterDataLoginToolStripMenuItem"
-        Me.MasterDataLoginToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MasterDataLoginToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
         Me.MasterDataLoginToolStripMenuItem.Text = "DATA ADMIN"
         '
         'ABSENSIToolStripMenuItem
@@ -306,16 +307,6 @@ Partial Class DASHBOARD
         Me.Panel1.Size = New System.Drawing.Size(366, 672)
         Me.Panel1.TabIndex = 2
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.ProjectKP.My.Resources.Resources.IMG_20230129_WA0018
-        Me.PictureBox8.Location = New System.Drawing.Point(117, 185)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(111, 129)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 182
-        Me.PictureBox8.TabStop = False
-        '
         'Label15
         '
         Me.Label15.AutoSize = True
@@ -388,95 +379,6 @@ Partial Class DASHBOARD
         Me.Label12.Size = New System.Drawing.Size(152, 20)
         Me.Label12.TabIndex = 174
         Me.Label12.Text = "Stat. Karyawan:"
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.ProjectKP.My.Resources.Resources._8
-        Me.PictureBox9.Location = New System.Drawing.Point(134, 429)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(98, 119)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 171
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.ProjectKP.My.Resources.Resources._7
-        Me.PictureBox10.Location = New System.Drawing.Point(25, 520)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(98, 119)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 170
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Image = Global.ProjectKP.My.Resources.Resources._6
-        Me.PictureBox11.Location = New System.Drawing.Point(242, 518)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(98, 121)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 169
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.ProjectKP.My.Resources.Resources._5
-        Me.PictureBox7.Location = New System.Drawing.Point(134, 236)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(96, 119)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 167
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.ProjectKP.My.Resources.Resources._4
-        Me.PictureBox6.Location = New System.Drawing.Point(242, 140)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(98, 119)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 166
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = Global.ProjectKP.My.Resources.Resources._3
-        Me.PictureBox5.Location = New System.Drawing.Point(25, 140)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(96, 117)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 165
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.ProjectKP.My.Resources.Resources._2
-        Me.PictureBox4.Location = New System.Drawing.Point(242, 335)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(98, 119)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 164
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.ProjectKP.My.Resources.Resources._1
-        Me.PictureBox3.Location = New System.Drawing.Point(25, 337)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(96, 117)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 163
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(117, 185)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(111, 129)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 162
-        Me.PictureBox2.TabStop = False
         '
         'Label7
         '
@@ -569,16 +471,6 @@ Partial Class DASHBOARD
         Me.Label2.Size = New System.Drawing.Size(0, 12)
         Me.Label2.TabIndex = 145
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.ProjectKP.My.Resources.Resources.LOGO
-        Me.PictureBox1.Location = New System.Drawing.Point(7, 15)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(73, 75)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 143
-        Me.PictureBox1.TabStop = False
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -590,6 +482,13 @@ Partial Class DASHBOARD
         Me.Label5.TabIndex = 142
         Me.Label5.Text = "PT GEMILANG KARUNIA TAMA"
         '
+        'INPUTDATAKERYAWANToolStripMenuItem
+        '
+        Me.INPUTDATAKERYAWANToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.INPUTDATAKERYAWANToolStripMenuItem.Name = "INPUTDATAKERYAWANToolStripMenuItem"
+        Me.INPUTDATAKERYAWANToolStripMenuItem.Size = New System.Drawing.Size(155, 20)
+        Me.INPUTDATAKERYAWANToolStripMenuItem.Text = "INPUT DATA KARYAWAN"
+        '
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.ProjectKP.My.Resources.Resources.BG
@@ -599,6 +498,115 @@ Partial Class DASHBOARD
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 3
         Me.PictureBox12.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.ProjectKP.My.Resources.Resources.IMG_20230129_WA0018
+        Me.PictureBox8.Location = New System.Drawing.Point(117, 185)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(111, 129)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 182
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.ProjectKP.My.Resources.Resources._8
+        Me.PictureBox9.Location = New System.Drawing.Point(134, 429)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(98, 119)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 171
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.ProjectKP.My.Resources.Resources._7
+        Me.PictureBox10.Location = New System.Drawing.Point(25, 520)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(98, 119)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 170
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = Global.ProjectKP.My.Resources.Resources._6
+        Me.PictureBox11.Location = New System.Drawing.Point(242, 518)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(98, 121)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 169
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.ProjectKP.My.Resources.Resources._5
+        Me.PictureBox7.Location = New System.Drawing.Point(134, 236)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(96, 119)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 167
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.ProjectKP.My.Resources.Resources._4
+        Me.PictureBox6.Location = New System.Drawing.Point(242, 140)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(98, 119)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 166
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.ProjectKP.My.Resources.Resources._3
+        Me.PictureBox5.Location = New System.Drawing.Point(25, 140)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(96, 117)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 165
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.ProjectKP.My.Resources.Resources._2
+        Me.PictureBox4.Location = New System.Drawing.Point(242, 335)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(98, 119)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 164
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.ProjectKP.My.Resources.Resources._1
+        Me.PictureBox3.Location = New System.Drawing.Point(25, 337)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(96, 117)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 163
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(117, 185)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(111, 129)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 162
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ProjectKP.My.Resources.Resources.LOGO
+        Me.PictureBox1.Location = New System.Drawing.Point(7, 15)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(73, 75)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 143
+        Me.PictureBox1.TabStop = False
         '
         'DASHBOARD
         '
@@ -621,6 +629,9 @@ Partial Class DASHBOARD
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
@@ -631,10 +642,7 @@ Partial Class DASHBOARD
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -695,4 +703,5 @@ Partial Class DASHBOARD
     Friend WithEvents Label9 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents INPUTDATAKERYAWANToolStripMenuItem As ToolStripMenuItem
 End Class

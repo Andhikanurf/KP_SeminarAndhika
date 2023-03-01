@@ -8,6 +8,7 @@ Public Class LOGIN
         DASHBOARD.MASTERDATAToolStripMenuItem.Enabled = True
         DASHBOARD.ABSENSIToolStripMenuItem.Enabled = True
         DASHBOARD.LAPORANToolStripMenuItem.Enabled = True
+        DASHBOARD.INPUTDATAKERYAWANToolStripMenuItem.Enabled = True
         DASHBOARD.PictureBox3.Hide()
         DASHBOARD.PictureBox4.Hide()
         DASHBOARD.PictureBox5.Hide()
@@ -66,7 +67,7 @@ Public Class LOGIN
                     DASHBOARD.KEHADIRANKARYAWANToolStripMenuItem.Enabled = True
                 End If
 
-                If DASHBOARD.SS4.Text < "15.30.00" Then
+                If DASHBOARD.SS4.Text < "15.00.00" Then
                     DASHBOARD.ABSENSIPULANGToolStripMenuItem.Enabled = False
                 Else
                     DASHBOARD.ABSENSIPULANGToolStripMenuItem.Enabled = True
@@ -144,11 +145,14 @@ Public Class LOGIN
                 If DASHBOARD.SS8.Text = "KARYAWAN" Then
                     DASHBOARD.MasterDataLoginToolStripMenuItem.Enabled = False
                     DASHBOARD.LAPORANToolStripMenuItem.Enabled = False
+                    DASHBOARD.INPUTDATAKERYAWANToolStripMenuItem.Enabled = False
                 End If
 
                 If DASHBOARD.SS8.Text = "OWNER" Then
                     DASHBOARD.MASTERDATAToolStripMenuItem.Enabled = False
                     DASHBOARD.ABSENSIToolStripMenuItem.Enabled = False
+                    DASHBOARD.INPUTDATAKERYAWANToolStripMenuItem.Enabled = False
+
                     DASHBOARD.Label12.Hide()
                     DASHBOARD.Label11.Hide()
                     DASHBOARD.Label9.Hide()
@@ -178,5 +182,9 @@ Public Class LOGIN
         Else
             TextBox2.PasswordChar = "*"
         End If
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        LUPAPASSWORD.ShowDialog()
     End Sub
 End Class
