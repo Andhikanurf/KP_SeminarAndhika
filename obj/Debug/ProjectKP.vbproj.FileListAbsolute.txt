@@ -138,3 +138,5 @@ C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\ProjectKP\ProjectKP\obj\Debu
 C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN1.resources
 C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LAPORAN2.resources
 C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.PULANG.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.INPUT.resources
+C:\Users\HP\Downloads\ProjectKP\ProjectKP\ProjectKP\obj\Debug\ProjectKP.LUPAPASSWORD.resources
